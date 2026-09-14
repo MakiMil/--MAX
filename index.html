@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMM MAX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="logo" href="#home" data-nav="home">
+      <img src="assets/cmm-logo.png" alt="CMM" />
+      <span>CMM</span>
+    </a>
+    <nav class="tabs" aria-label="Разделы">
+      <button type="button" class="tab is-active" data-nav="home">Главная</button>
+      <button type="button" class="tab" data-nav="music">Music Max</button>
+      <button type="button" class="tab" data-nav="erp">ERP Max</button>
+      <button type="button" class="tab" data-nav="about">О нас</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="page is-active">
+      <div class="hero-block">
+        <p class="chip">Приложения · Windows</p>
+        <h1>CMM MAX<br /><span>Экосистема приложений</span></h1>
+        <p class="lead">
+          Music Max — заметки, релизы и упрощённый диджей для мероприятий.
+          ERP Max — производство, задачи и контроль в одном окне.
+        </p>
+      </div>
+
+      <div class="laptops-wrap home-laptops">
+        <figure class="laptop laptop-tilt-left">
+          <div class="laptop-lid">
+            <div class="laptop-bezel">
+              <img src="assets/erp-screen.png" alt="SMM ERP Max" />
+            </div>
+          </div>
+          <div class="laptop-base"></div>
+          <figcaption>ERP Max</figcaption>
+        </figure>
+        <figure class="laptop laptop-tilt-right">
+          <div class="laptop-lid">
+            <div class="laptop-bezel">
+              <img src="assets/music-screen.png" alt="CMM Music Max" />
+            </div>
+          </div>
+          <div class="laptop-base"></div>
+          <figcaption>Music Max</figcaption>
+        </figure>
+      </div>
+
+      <div class="home-grid">
+        <article class="glass-card app-teaser">
+          <div class="teaser-top">
+            <span class="badge erp">ERP</span>
+            <h2>SMM ERP Max</h2>
+          </div>
+          <p>
+            Система для производства: задачи, часы, склад, продажи и сводка
+            по активным и просроченным ТЗ в реальном времени.
+          </p>
+          <ul class="feature-list">
+            <li>Сводка по производству и KPI</li>
+            <li>Пользователи, склад, продажи</li>
+            <li>Практичное управление без лишнего шума</li>
+          </ul>
+          <div class="teaser-actions">
+            <button type="button" class="btn btn-ghost" data-nav="erp">Подробнее</button>
+            <a class="btn btn-primary" href="downloads/SMM-ERP_MAX-Setup-1.26.38.exe" download>Скачать v1.26.38</a>
+          </div>
+        </article>
+
+        <article class="glass-card app-teaser">
+          <div class="teaser-top">
+            <span class="badge music">Music</span>
+            <h2>CMM Music Max</h2>
+          </div>
+          <p>
+            Приложение для заметок и упрощённого диджея на мероприятиях:
+            тексты, мелодии, будущий релиз и порядок треков — без лишнего стресса.
+          </p>
+          <ul class="feature-list">
+            <li>Тексты, мелодии и итоговая песня в одном месте</li>
+            <li>Планирование релиза и состава альбома</li>
+            <li>Автоведение мероприятия в режиме диджея</li>
+          </ul>
+          <div class="teaser-actions">
+            <button type="button" class="btn btn-ghost" data-nav="music">Подробнее</button>
+            <a class="btn btn-primary" href="downloads/CMM-MUSIC_MAX-Setup-1.3.0.exe" download>Скачать v1.3.0</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- MUSIC -->
+    <section id="music" class="page">
+      <div class="page-head">
+        <div>
+          <p class="chip">Приложение</p>
+          <h1>CMM Music Max</h1>
+          <p class="lead">Заметки, релизы и упрощённый диджей — чтобы мероприятие шло само, пока вы пьёте кофе.</p>
+        </div>
+        <a class="btn btn-primary btn-lg" href="downloads/CMM-MUSIC_MAX-Setup-1.3.0.exe" download>
+          Скачать Setup v1.3.0
+        </a>
+      </div>
+
+      <div class="detail-layout">
+        <div class="laptop">
+          <div class="laptop-lid">
+            <div class="laptop-bezel">
+              <img src="assets/music-screen.png" alt="Интерфейс CMM Music Max" />
+            </div>
+          </div>
+          <div class="laptop-base"></div>
+        </div>
+
+        <div class="glass-card detail-copy">
+          <h2>О приложении</h2>
+          <p>
+            CMM Music Max создан для заметок и упрощённого диджея при ведении мероприятий.
+            Здесь можно сохранять тексты, мелодии и итоговую песню — и заранее понимать,
+            каким будет будущий релиз, когда его примерно можно выпустить,
+            какие треки подойдут в альбом и как всё это будет смотреться вместе.
+          </p>
+          <p>
+            В режиме диджея — простой план мероприятия: добавляете песни,
+            задаёте порядок, что, когда и сколько должно звучать.
+            Подходит тем, кто хочет провести вечер спокойно и не волноваться,
+            когда что включать. Приложение само ведёт мероприятие — а вы можете выпить кофе.
+          </p>
+          <div class="info-rows">
+            <div><span>Версия</span><strong>1.3.0</strong></div>
+            <div><span>Платформа</span><strong>Windows</strong></div>
+            <div><span>Файл</span><strong>CMM-MUSIC_MAX-Setup-1.3.0.exe</strong></div>
+            <div><span>Размер</span><strong>~92 МБ</strong></div>
+          </div>
+          <h3>Возможности</h3>
+          <ul class="feature-list">
+            <li>Заметки: тексты, мелодии и готовая песня</li>
+            <li>Планирование релиза, сроков и состава альбома</li>
+            <li>Упрощённый диджей с порядком и таймингом треков</li>
+            <li>Автоведение мероприятия без ручного переключения</li>
+          </ul>
+          <a class="btn btn-primary" href="downloads/CMM-MUSIC_MAX-Setup-1.3.0.exe" download>Скачать Music Max</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ERP -->
+    <section id="erp" class="page">
+      <div class="page-head">
+        <div>
+          <p class="chip">Приложение</p>
+          <h1>SMM ERP Max</h1>
+          <p class="lead">Производственная ERP: задачи, часы, склад, продажи и контроль сроков.</p>
+        </div>
+        <a class="btn btn-primary btn-lg" href="downloads/SMM-ERP_MAX-Setup-1.26.38.exe" download>
+          Скачать Setup v1.26.38
+        </a>
+      </div>
+
+      <div class="detail-layout">
+        <div class="laptop">
+          <div class="laptop-lid">
+            <div class="laptop-bezel">
+              <img src="assets/erp-screen.png" alt="Интерфейс SMM ERP Max" />
+            </div>
+          </div>
+          <div class="laptop-base"></div>
+        </div>
+
+        <div class="glass-card detail-copy">
+          <h2>Что внутри</h2>
+          <p>
+            ERP Max собирает производство в одной панели: сводка по ТЗ,
+            плановые и фактические часы, просрочки, фонд ЗП и сумма активных задач.
+            Навигация по пользователям, производству, складу и продажам.
+          </p>
+          <div class="info-rows">
+            <div><span>Версия</span><strong>1.26.38</strong></div>
+            <div><span>Платформа</span><strong>Windows</strong></div>
+            <div><span>Файл</span><strong>SMM-ERP_MAX-Setup-1.26.38.exe</strong></div>
+            <div><span>Размер</span><strong>~91 МБ</strong></div>
+          </div>
+          <h3>Возможности</h3>
+          <ul class="feature-list">
+            <li>KPI-карточки и сводка по производству</li>
+            <li>Активные и просроченные ТЗ с действиями</li>
+            <li>Модули: Пользователи, Производство, Склад, Продажи</li>
+            <li>Практичный интерфейс для ежедневной работы цеха</li>
+          </ul>
+          <a class="btn btn-primary" href="downloads/SMM-ERP_MAX-Setup-1.26.38.exe" download>Скачать ERP Max</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="page">
+      <div class="page-head about-head">
+        <div>
+          <p class="chip">О разработчике</p>
+          <h1>О нас</h1>
+          <p class="lead">
+            Разрабатываю приложения и сайты — индивидуальные решения
+            для производства и под любые ваши идеи.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card about-main">
+          <img src="assets/cmm-logo.png" alt="" class="about-logo" />
+          <h2>Индивидуальная разработка</h2>
+          <p>
+            Делаю приложения и сайты с нуля под задачу заказчика:
+            от идеи и структуры до удобного интерфейса и внедрения.
+            Специализация — решения для производства и бизнеса,
+            а также любые кастомные продукты под ваш сценарий.
+          </p>
+          <p>
+            Максимальная доработка до того результата, который вы хотите увидеть:
+            современный дизайн, практичная логика и простое управление
+            без лишней сложности.
+          </p>
+        </article>
+
+        <article class="glass-card">
+          <h3>Что получаете</h3>
+          <ul class="feature-list">
+            <li>Индивидуальный продукт под ваши процессы</li>
+            <li>Современный iOS-подобный и чистый UI</li>
+            <li>Практичное и простое управление</li>
+            <li>Доработки до финального видения заказчика</li>
+            <li>Сайты, десктоп-приложения, внутренние системы</li>
+          </ul>
+        </article>
+
+        <article class="glass-card">
+          <h3>Направления</h3>
+          <div class="pill-grid">
+            <span>Производство</span>
+            <span>ERP / учёт</span>
+            <span>Музыкальные сервисы</span>
+            <span>Лендинги и порталы</span>
+            <span>Внутренние кабинеты</span>
+            <span>Любые ваши идеи</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>CMM · Music Max & ERP Max</span>
+    <span>Windows Setup</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
