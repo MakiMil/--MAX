@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 560" role="img" aria-label="CMM">
+  <!--
+    Clean vector CMM cube
+    Top face = C (opening toward front-right)
+    Side notches = M / M
+  -->
+  <path fill="#FFFFFF" fill-rule="evenodd" d="
+    M256 32
+    L420 126
+    L420 172
+    L358 136
+    L358 200
+    L420 236
+    L420 282
+    L358 318
+    L358 366
+    L420 402
+    L420 448
+    L256 542
+    L92 448
+    L92 402
+    L154 366
+    L154 318
+    L92 282
+    L92 236
+    L154 200
+    L154 136
+    L92 172
+    L92 126
+    Z
+
+    M170 168
+    L256 118
+    L342 168
+    L420 126
+    L420 236
+    L342 218
+    L256 266
+    L170 218
+    Z
+  "/>
+</svg>
